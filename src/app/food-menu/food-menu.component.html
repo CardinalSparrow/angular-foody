@@ -1,0 +1,13 @@
+<a [routerLink]="['/details', mealItem.id]">
+  <section class="menu">
+    <img
+      class="meal-photo"
+      [src]="mealItem.photo"
+      alt="Photo of {{ mealItem.name }}"
+      crossorigin
+    />
+    <h2 class="meal-name">{{ mealItem.name }}</h2>
+    <h3 class="meal-type">{{ mealItem.type }}</h3>
+    <p class="serving">Best served {{ mealItem.serving }}</p>
+  </section>
+</a>

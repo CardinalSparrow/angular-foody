@@ -1,0 +1,79 @@
+article {
+  margin: 50px;
+}
+.meal-photo {
+  width: 40%;
+  margin: 20px;
+  object-fit: cover;
+  border-radius: 30px;
+  float: right;
+}
+.meal-name {
+  color: #a9031e;
+}
+
+.meal-details {
+  display: flex;
+  margin-top: 20px;
+}
+.meal-type {
+  margin-top: 10px;
+}
+.meal-description {
+  line-height: 30px;
+  margin-top: 20px;
+  width: 500px;
+}
+
+.order-meal {
+  margin: 30px 0;
+}
+.order-meal .place-order {
+  font-size: 18pt;
+  margin: 20px 0;
+  color: #a9031e;
+}
+label,
+input {
+  display: block;
+}
+label {
+  color: var(--secondary-color);
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 12pt;
+}
+input {
+  font-size: 16pt;
+  margin-bottom: 15px;
+  padding: 10px;
+  width: 400px;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom: solid 0.3px;
+}
+.button {
+  display: inline-block;
+  padding: 12px 48px;
+  background: #a9031e;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #fcfcfc;
+  border-radius: 0.5rem;
+  border: 2px solid #a9031e;
+  transition: all 0.5s ease;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.button:hover {
+  background: transparent;
+  color: #a9031e;
+}
+
+/* @media (max-width: 1024px) {
+  .meal-photo {
+    width: 100%;
+    height: 400px;
+  }
+} */

@@ -1,0 +1,12 @@
+<section>
+  <form>
+    <input type="text" placeholder="Search Meal by type" #filter />
+    <button class="button" type="button" (click)="filterResults(filter.value)">
+      Search
+    </button>
+  </form>
+</section>
+<section class="results">
+  <app-food-menu *ngFor="let foodItem of filteredList" [mealItem]="foodItem">
+  </app-food-menu>
+</section>

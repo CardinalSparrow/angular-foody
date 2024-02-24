@@ -1,0 +1,28 @@
+header {
+  /* position: fixed; */
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px;
+  background: #a9031e;
+  width: 100%;
+  z-index: 1000;
+  padding: 10px 0;
+  border-bottom: 1px solid transparent;
+  transition: all 0.5s ease-in-out;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  cursor: pointer;
+  /* padding: 10px; */
+}
+
+.logo-img {
+  width: 50px;
+}
+
+.logo h1 {
+  color: #ffb501;
+}

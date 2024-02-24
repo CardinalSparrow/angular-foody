@@ -1,0 +1,26 @@
+.menu {
+  border: 2px solid gray;
+  text-align: center;
+  padding: 20px 0px;
+  margin: 20px 10px;
+  border-radius: 8px;
+}
+.meal-name {
+  color: #a9031e;
+  margin: 10px;
+  font-weight: 800;
+}
+.meal-photo {
+  height: 200px;
+  width: 200px;
+  /* object-fit: fill; */
+  border-radius: 30px;
+}
+.meal-type {
+  color: black;
+  padding: 10px;
+}
+
+.serving {
+  color: black;
+}
